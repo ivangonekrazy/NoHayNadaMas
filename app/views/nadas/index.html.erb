@@ -1,0 +1,26 @@
+<h1>Listing nadas</h1>
+
+<table>
+  <tr>
+    <th>Text</th>
+    <th>Image filename</th>
+    <th>Image url</th>
+    <th>Link tag</th>
+  </tr>
+
+<% @nadas.each do |nada| %>
+  <tr>
+    <td><%=h nada.text %></td>
+    <td><%=h nada.image_filename %></td>
+    <td><%=h nada.image_url %></td>
+    <td><%=h nada.link_tag %></td>
+    <td><%= link_to 'Show', nada %></td>
+    <td><%= link_to 'Edit', edit_nada_path(nada) %></td>
+    <td><%= link_to 'Destroy', nada, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New nada', new_nada_path %>

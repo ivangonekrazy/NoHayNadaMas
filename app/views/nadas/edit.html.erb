@@ -1,0 +1,28 @@
+<h1>Editing nada</h1>
+
+<% form_for(@nada) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_field :text %>
+  </p>
+  <p>
+    <%= f.label :image_filename %><br />
+    <%= f.text_field :image_filename %>
+  </p>
+  <p>
+    <%= f.label :image_url %><br />
+    <%= f.text_field :image_url %>
+  </p>
+  <p>
+    <%= f.label :link_tag %><br />
+    <%= f.text_field :link_tag %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @nada %> |
+<%= link_to 'Back', nadas_path %>

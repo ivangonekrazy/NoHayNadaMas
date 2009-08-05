@@ -1,0 +1,2 @@
+module NadasHelper
+end

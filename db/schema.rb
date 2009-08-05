@@ -9,7 +9,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090805033631) do
+ActiveRecord::Schema.define(:version => 20090805045957) do
+
+  create_table "nadas", :force => true do |t|
+    t.string   "text"
+    t.string   "image_filename"
+    t.string   "image_url"
+    t.string   "link_tag"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "login"

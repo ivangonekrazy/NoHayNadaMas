@@ -1,0 +1,4 @@
+log/*.log # dont track the log files
+tmp/**/*
+doc/api
+doc/app

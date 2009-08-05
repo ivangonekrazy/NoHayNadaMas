@@ -1,0 +1,23 @@
+<p>
+  <b>Text:</b>
+  <%=h @nada.text %>
+</p>
+
+<p>
+  <b>Image filename:</b>
+  <%=h @nada.image_filename %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%=h @nada.image_url %>
+</p>
+
+<p>
+  <b>Link tag:</b>
+  <%=h @nada.link_tag %>
+</p>
+
+
+<%= link_to 'Edit', edit_nada_path(@nada) %> |
+<%= link_to 'Back', nadas_path %>
