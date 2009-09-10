@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090805045957) do
+ActiveRecord::Schema.define(:version => 20090808220027) do
 
   create_table "nadas", :force => true do |t|
     t.string   "text"
@@ -29,6 +29,13 @@ ActiveRecord::Schema.define(:version => 20090805045957) do
     t.datetime "updated_at"
     t.string   "remember_token"
     t.datetime "remember_token_expires_at"
+  end
+
+  create_table "votes", :force => true do |t|
+    t.integer  "nada_id"
+    t.string   "origin"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

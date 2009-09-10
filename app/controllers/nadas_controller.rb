@@ -14,6 +14,7 @@ class NadasController < ApplicationController
   # GET /nadas/1.xml
   def show
     @nada = Nada.find(params[:id])
+    @vote = Vote.new
     #@nada = Nada.find :first, :conditions => [ "link_tag = ?", params[:id] ]
 
     respond_to do |format|

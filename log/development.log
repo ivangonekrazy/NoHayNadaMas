@@ -48,3 +48,988 @@ Migrating to CreateNadas (20090805045957)
 [0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("nadas")[0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+/!\ FAILSAFE /!\  Sat Aug 08 14:27:44 -0700 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090805033631)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "crypted_password" varchar(40), "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090805033631')[0m
+Migrating to CreateNadas (20090805045957)
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "nadas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "text" varchar(255), "image_filename" varchar(255), "image_url" varchar(255), "link_tag" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090805045957')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("nadas")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-08-08 14:37:30) [GET]
+
+ActionController::RoutingError (No route matches "/nada" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 14:37:33) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 91ms (View: 82, DB: 1) | 200 OK [http://localhost/nadas]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090805033631)
+Migrating to CreateNadas (20090805045957)
+Migrating to CreateVotes (20090808220027)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "votes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nada_id" integer, "origin" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090808220027')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("nadas")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("votes")[0m
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 15:05:49) [GET]
+  [4;35;1mNada Load (0.5ms)[0m   [0mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 443ms (View: 4, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 15:05:58) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 60ms (View: 8, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 15:06:04) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"Mother's Cookies", "link_tag"=>""}}
+  [4;36;1mNada Create (0.6ms)[0m   [0;1mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 22:06:04', '', '', '2009-08-08 22:06:04', 'Mother''s Cookies', 'd8204d65a3819835718b86bd770c0096ae767929')[0m
+Redirected to http://localhost:3000/nadas/1
+Completed in 23ms (DB: 1) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 15:06:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 1) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/nadas/1]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 15:06:11) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 15:07:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"Heath Ledger", "link_tag"=>""}}
+  [4;36;1mNada Create (0.4ms)[0m   [0;1mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 22:07:58', '', '', '2009-08-08 22:07:58', 'Heath Ledger', 'a336235aa2a6e6aaf75def86fceafa178444602c')[0m
+Redirected to http://localhost:3000/nadas/2
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 15:07:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/2]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 15:08:01) [GET]
+  [4;36;1mNada Load (0.7ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 15:14:18) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 15:14:23) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"The A-Team", "link_tag"=>""}}
+  [4;35;1mNada Create (0.4ms)[0m   [0mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 22:14:23', '', '', '2009-08-08 22:14:23', 'The A-Team', '7c0dc237ffd098b505a6b00ba1a0a961fe07a9a6')[0m
+Redirected to http://localhost:3000/nadas/3
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 15:14:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 15:14:27) [GET]
+  [4;35;1mNada Load (0.8ms)[0m   [0mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 15:35:04) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 58ms (View: 51, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 15:35:13) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"Battlestar Galactica", "link_tag"=>""}}
+  [4;36;1mNada Create (0.4ms)[0m   [0;1mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 22:35:13', '', '', '2009-08-08 22:35:13', 'Battlestar Galactica', '3b4947a52f6739261bc6311a5f59858c02b32f5e')[0m
+Redirected to http://localhost:3000/nadas/4
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 15:35:13) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 4) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/4]
+
+
+Processing NadasController#edit (for ::1 at 2009-08-08 16:05:37) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 4) [0m
+Rendering template within layouts/nadas
+Rendering nadas/edit
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://localhost/nadas/4/edit]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:05:43) [GET]
+  [4;35;1mNada Load (0.9ms)[0m   [0mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 14ms (View: 6, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 16:05:45) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 16:05:51) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"Lionel Hutz", "link_tag"=>""}}
+  [4;36;1mNada Create (0.6ms)[0m   [0;1mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 23:05:51', '', '', '2009-08-08 23:05:51', 'Lionel Hutz', '91299a0088d1cd047c81883dceb84d450e0d9b6a')[0m
+Redirected to http://localhost:3000/nadas/5
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:05:51) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mNada Load (0.4ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 5) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/5]
+  [4;36;1mNada Load (1.3ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+  [4;35;1mNada Load (0.6ms)[0m   [0mSELECT * FROM "nadas" [0m
+  [4;36;1mNada Load (0.6ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+  [4;36;1mNada Load (1.3ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+  [4;35;1mNada Load (0.6ms)[0m   [0mSELECT * FROM "nadas" [0m
+  [4;36;1mNada Load (0.6ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+  [4;35;1mNada Load (0.6ms)[0m   [0mSELECT * FROM "nadas" [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090805033631)
+Migrating to CreateNadas (20090805045957)
+Migrating to CreateVotes (20090808220027)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("nadas")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("votes")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCREATE TABLE "nadas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "text" varchar(255), "image_filename" varchar(255), "image_url" varchar(255), "link_tag" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "crypted_password" varchar(40), "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE TABLE "votes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nada_id" integer, "origin" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.8ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090808220027')[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090805033631')[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090805045957')[0m
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+  [4;35;1mNada Load (0.2ms)[0m   [0mSELECT * FROM "nadas" [0m
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:20:51) [GET]
+  [4;36;1mNada Load (0.9ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 74ms (View: 59, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 16:20:53) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 16:20:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"Lionel Hutz", "link_tag"=>""}}
+  [4;35;1mNada Create (0.6ms)[0m   [0mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 23:20:58', '', '', '2009-08-08 23:20:58', 'Lionel Hutz', '91299a0088d1cd047c81883dceb84d450e0d9b6a')[0m
+Redirected to http://localhost:3000/nadas/1
+Completed in 91ms (DB: 1) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:20:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 1) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/1]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:21:01) [GET]
+  [4;35;1mNada Load (0.6ms)[0m   [0mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 12ms (View: 4, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 16:21:05) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 16:21:13) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"Troy McClure", "link_tag"=>""}}
+  [4;36;1mNada Create (0.5ms)[0m   [0;1mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 23:21:13', '', '', '2009-08-08 23:21:13', 'Troy McClure', '5ead2a6af9846e93f0f59b459f36e8b077c44c38')[0m
+Redirected to http://localhost:3000/nadas/2
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:21:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/2]
+  [4;36;1mNada Load (1.0ms)[0m   [0;1mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;36;1mVote Load (0.3ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes".nada_id = 1) [0m
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:21:42) [GET]
+  [4;36;1mVote Load (0.5ms)[0m   [0;1mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#new (for ::1 at 2009-08-08 16:21:44) [GET]
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/votes/new]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:21:53) [POST]
+  Parameters: {"vote"=>{"nada_id"=>"1", "origin"=>"someguyinWisconsin"}, "commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+  [4;35;1mVote Create (0.5ms)[0m   [0mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:21:53', 1, '2009-08-08 23:21:53', 'someguyinWisconsin')[0m
+Redirected to http://localhost:3000/votes/1
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:21:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mVote Load (0.3ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes"."id" = 1) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/votes/1]
+  [4;35;1mNada Load (0.4ms)[0m   [0mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;36;1mVote Load (0.2ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes".nada_id = 1) [0m
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;36;1mNada Load (0.4ms)[0m   [0;1mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes".nada_id = 1) [0m
+  [4;36;1mNada Load (0.4ms)[0m   [0;1mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes".nada_id = 1) [0m
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:22:34) [GET]
+  [4;35;1mNada Load (0.7ms)[0m   [0mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#new (for ::1 at 2009-08-08 16:22:39) [GET]
+Rendering template within layouts/nadas
+Rendering nadas/new
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/nadas/new]
+
+
+Processing NadasController#create (for ::1 at 2009-08-08 16:22:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>{"image_url"=>"", "image_filename"=>"", "text"=>"The Equalizer", "link_tag"=>""}}
+  [4;36;1mNada Create (0.5ms)[0m   [0;1mINSERT INTO "nadas" ("created_at", "image_filename", "image_url", "updated_at", "text", "link_tag") VALUES('2009-08-08 23:22:54', '', '', '2009-08-08 23:22:54', 'The Equalizer', '79ceff6d102f14120eca28f9a0b15f147ce49409')[0m
+Redirected to http://localhost:3000/nadas/3
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:22:54) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:38:09) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:38:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 1) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/1]
+
+
+Processing ApplicationController#index (for ::1 at 2009-08-08 16:38:25) [GET]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"1"}
+
+ActionController::RoutingError (No route matches "/people/search" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:39:56) [GET]
+  [4;36;1mNada Load (1.1ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:39:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 1) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/1]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:40:00) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"1", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 61ms (View: 3, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:40:53) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"1", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:41:57) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"1", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:42:03) [POST]
+  Parameters: {"vote"=>{"nada_id"=>"1", "origin"=>""}, "commit"=>"Create", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 1) [0m
+  [4;35;1mVote Create (0.4ms)[0m   [0mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:42:03', 1, '2009-08-08 23:42:03', '')[0m
+Redirected to http://localhost:3000/votes/2
+Completed in 18ms (DB: 1) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:42:03) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mVote Load (0.2ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes"."id" = 2) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/votes/2]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:42:08) [GET]
+  [4;35;1mVote Load (1.5ms)[0m   [0mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:42:38) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:42:40) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/2]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:42:42) [POST]
+  Parameters: {"commit"=>"I miss this.", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>"2"}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:43:57) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/nadas/2]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:44:01) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"2", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:44:20) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"2", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 62ms (View: 3, DB: 0) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:44:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNada Load (2.0ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 15ms (View: 4, DB: 2) | 200 OK [http://localhost/nadas/2]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:44:30) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"2", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+  [4;36;1mVote Create (0.4ms)[0m   [0;1mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:44:30', NULL, '2009-08-08 23:44:30', NULL)[0m
+Redirected to http://localhost:3000/votes/3
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:44:30) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 3) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/votes/3]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:44:46) [GET]
+  [4;36;1mVote Load (0.7ms)[0m   [0;1mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#destroy (for ::1 at 2009-08-08 16:44:50) [DELETE]
+  Parameters: {"authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "id"=>"1"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 1) [0m
+  [4;36;1mVote Destroy (0.4ms)[0m   [0;1mDELETE FROM "votes" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/votes
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/votes/1]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:44:50) [GET]
+  [4;35;1mVote Load (0.7ms)[0m   [0mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#destroy (for ::1 at 2009-08-08 16:44:52) [DELETE]
+  Parameters: {"authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "id"=>"2"}
+  [4;36;1mVote Load (0.3ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes"."id" = 2) [0m
+  [4;35;1mVote Destroy (0.3ms)[0m   [0mDELETE FROM "votes" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/votes
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/votes/2]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:44:52) [GET]
+  [4;36;1mVote Load (0.7ms)[0m   [0;1mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#destroy (for ::1 at 2009-08-08 16:44:54) [DELETE]
+  Parameters: {"authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "id"=>"3"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 3) [0m
+  [4;36;1mVote Destroy (0.3ms)[0m   [0;1mDELETE FROM "votes" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/votes
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/votes/3]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:44:54) [GET]
+  [4;35;1mVote Load (0.6ms)[0m   [0mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:45:13) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 14ms (View: 6, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:45:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 1) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 63ms (View: 54, DB: 0) | 200 OK [http://localhost/nadas/1]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:45:16) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"#<Nada:0x3443c4>", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+  [4;36;1mVote Create (0.5ms)[0m   [0;1mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:45:16', NULL, '2009-08-08 23:45:16', NULL)[0m
+Redirected to http://localhost:3000/votes/4
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:45:16) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 4) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/votes/4]
+  [4;36;1mNada Load (0.4ms)[0m   [0;1mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;35;1mVote Load (0.1ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes".nada_id = 1) [0m
+  [4;36;1mNada Load (0.4ms)[0m   [0;1mSELECT * FROM "nadas" LIMIT 1[0m
+  [4;35;1mVote Load (0.1ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes".nada_id = 1) [0m
+  [4;36;1mNada Load (0.5ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+  [4;35;1mNada Load (0.4ms)[0m   [0mSELECT * FROM "nadas" ORDER BY nadas.id DESC LIMIT 1[0m
+  [4;36;1mNada Load (0.4ms)[0m   [0;1mSELECT * FROM "nadas" ORDER BY nadas.id DESC LIMIT 1[0m
+  [4;35;1mVote Load (0.1ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes".nada_id = 3) [0m
+  [4;36;1mNada Load (0.4ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+  [4;35;1mNada Load (0.4ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 2) [0m
+  [4;36;1mVote Load (0.1ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes".nada_id = 2) [0m
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:46:07) [GET]
+  [4;36;1mVote Load (0.7ms)[0m   [0;1mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/votes/]
+
+
+Processing VotesController#destroy (for ::1 at 2009-08-08 16:46:46) [DELETE]
+  Parameters: {"authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "id"=>"4"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 4) [0m
+  [4;36;1mVote Destroy (0.6ms)[0m   [0;1mDELETE FROM "votes" WHERE "id" = 4[0m
+Redirected to http://localhost:3000/votes
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/votes/4]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:46:46) [GET]
+  [4;35;1mVote Load (0.5ms)[0m   [0mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:46:49) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:46:51) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:46:53) [POST]
+  Parameters: {"commit"=>"I miss this.", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "nada"=>"#<Nada:0x1ae2cb0>"}
+  [4;36;1mVote Create (0.7ms)[0m   [0;1mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:46:53', NULL, '2009-08-08 23:46:53', NULL)[0m
+Redirected to http://localhost:3000/votes/5
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:46:53) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 5) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/votes/5]
+  [4;35;1mVote Load (0.3ms)[0m   [0mSELECT * FROM "votes" [0m
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:49:05) [GET]
+  [4;36;1mVote Load (0.7ms)[0m   [0;1mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#destroy (for ::1 at 2009-08-08 16:49:08) [DELETE]
+  Parameters: {"authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "id"=>"5"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 5) [0m
+  [4;36;1mVote Destroy (0.4ms)[0m   [0;1mDELETE FROM "votes" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/votes
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/votes/5]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:49:08) [GET]
+  [4;35;1mVote Load (0.5ms)[0m   [0mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:49:12) [GET]
+  [4;36;1mNada Load (0.9ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 14ms (View: 6, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:49:15) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:49:17) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"#<Nada:0x19ea54c>", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+  [4;36;1mVote Create (0.6ms)[0m   [0;1mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:49:17', NULL, '2009-08-08 23:49:17', NULL)[0m
+Redirected to http://localhost:3000/votes/6
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:49:17) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mVote Load (0.3ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 6) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/votes/6]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:49:19) [GET]
+  [4;36;1mVote Load (0.6ms)[0m   [0;1mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing VotesController#destroy (for ::1 at 2009-08-08 16:49:22) [DELETE]
+  Parameters: {"authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c=", "id"=>"6"}
+  [4;35;1mVote Load (0.3ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 6) [0m
+  [4;36;1mVote Destroy (0.4ms)[0m   [0;1mDELETE FROM "votes" WHERE "id" = 6[0m
+Redirected to http://localhost:3000/votes
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/votes/6]
+
+
+Processing VotesController#index (for ::1 at 2009-08-08 16:49:22) [GET]
+  [4;35;1mVote Load (0.5ms)[0m   [0mSELECT * FROM "votes" [0m
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/votes]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 16:49:43) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:49:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 16:50:00) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing VotesController#create (for ::1 at 2009-08-08 16:50:12) [POST]
+  Parameters: {"commit"=>"I miss this.", "nada_id"=>"3", "authenticity_token"=>"0VkX2ZDa+BAGcAYPVZ9Q+4BWPk/GxP3zLA4Z2EEBR7c="}
+  [4;35;1mVote Create (0.4ms)[0m   [0mINSERT INTO "votes" ("created_at", "nada_id", "updated_at", "origin") VALUES('2009-08-08 23:50:12', NULL, '2009-08-08 23:50:12', NULL)[0m
+Redirected to http://localhost:3000/votes/7
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/votes]
+
+
+Processing VotesController#show (for ::1 at 2009-08-08 16:50:12) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mVote Load (0.2ms)[0m   [0;1mSELECT * FROM "votes" WHERE ("votes"."id" = 7) [0m
+Rendering template within layouts/votes
+Rendering votes/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/votes/7]
+
+
+Processing VotesController#edit (for ::1 at 2009-08-08 16:50:20) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mVote Load (0.2ms)[0m   [0mSELECT * FROM "votes" WHERE ("votes"."id" = 7) [0m
+Rendering template within layouts/votes
+Rendering votes/edit
+Completed in 30ms (View: 24, DB: 0) | 200 OK [http://localhost/votes/7/edit]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 17:02:19) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 17:02:21) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/nadas/3]
+
+
+Processing NadasController#index (for ::1 at 2009-08-08 17:17:11) [GET]
+  [4;36;1mNada Load (0.8ms)[0m   [0;1mSELECT * FROM "nadas" [0m
+Rendering template within layouts/nadas
+Rendering nadas/index
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/nadas]
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 17:17:13) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+
+ActionView::TemplateError (undefined method `merge' for 3:Fixnum) on line #25 of app/views/nadas/show.html.erb:
+22: 
+23: <p>
+24:   <% form_for(@vote) do |f| %>
+25:     <%= f.hidden_field(:nada_id, @nada.id) %>
+26:     <%= submit_tag("I miss this.") %>
+27:   <% end %>
+28: </p>
+
+    app/views/nadas/show.html.erb:25
+    app/views/nadas/show.html.erb:24
+    app/controllers/nadas_controller.rb:20:in `show'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 17:20:49) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mNada Load (0.3ms)[0m   [0;1mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+
+ActionView::TemplateError (undefined method `merge' for 3:Fixnum) on line #25 of app/views/nadas/show.html.erb:
+22: 
+23: <p>
+24:   <% form_for(@vote) do |f| %>
+25:     <%= f.hidden_field(:nada_id, @nada.id) %>
+26:     <%= submit_tag("I miss this.") %>
+27:   <% end %>
+28: </p>
+
+    app/views/nadas/show.html.erb:25
+    app/views/nadas/show.html.erb:24
+    app/controllers/nadas_controller.rb:20:in `show'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NadasController#show (for ::1 at 2009-08-08 17:21:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mNada Load (0.3ms)[0m   [0mSELECT * FROM "nadas" WHERE ("nadas"."id" = 3) [0m
+Rendering template within layouts/nadas
+Rendering nadas/show
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://localhost/nadas/3]

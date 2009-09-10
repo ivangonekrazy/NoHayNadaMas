@@ -3,6 +3,7 @@
   <%=h @nada.text %>
 </p>
 
+<!--
 <p>
   <b>Image filename:</b>
   <%=h @nada.image_filename %>
@@ -17,7 +18,15 @@
   <b>Link tag:</b>
   <%=h @nada.link_tag %>
 </p>
+-->
+
+<p>
+  <% form_for(@vote) do |f| %>
+    <%= hidden_field(:nada_id, @nada.id) %>
+    <%= submit_tag("I miss this.") %>
+  <% end %>
+</p>
 
 
-<%= link_to 'Edit', edit_nada_path(@nada) %> |
-<%= link_to 'Back', nadas_path %>
+<!--<%= link_to 'Edit', edit_nada_path(@nada) %> |-->
+<%= link_to 'See all Nadas', nadas_path %>
